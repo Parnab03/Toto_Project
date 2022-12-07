@@ -1,91 +1,139 @@
+.align1{
+    display: flex;
+    flex-direction: row;
+}
+#cont2
+{
+    margin-left: 670px;
+    margin-top: 40px;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+}
 #font1
 {  
-    font-family: Dancing Script;
-    font-size: 10px;
-    font-size: 20px;
+    font-family: Paprika;
+    font-size: 23px;
     font-weight: 600;
     color:rgb(72, 128, 233);
-    justify-content: right;
+    word-spacing: 5px;
 }
 #cont1
 {
     font-family: Zen Tokyo Zoo ;
     color: aqua;
-    font-size: 40px;
-    margin-top: 50 auto;
+    font-size: 50px;
+    margin-top: 20px;
     margin-left: 0px;
     display: flex;
     flex-direction: row;
 }
+#font2{
+    margin-top: 25px;
+    margin-left: 0px;
+}
 #img1
 {
     height: 100px;
-    width: 150px;
+    width: 175px;
 }
 input
 {
     border: none;
     background-color: black;
     color: aliceblue;
-    font-size: 15px;
+    font-size: 13px;
     font-weight: bold;
-    text-align: right;
-    padding: 10px;
+    padding: 6px;
     border-radius: 13px;
     transition: 0.5s;
-    display: flex;
-    flex-direction: row;
-    margin: 0 auto;
+    margin: 5px;
 }
 input:hover
 {
     background-color:rgb(72, 128, 233);
-    font-size: 16px;
+    font-size: 14px;
 }
 #cont3
 {
-    font-family: Dancing Script;
-    font-size: 50px;
+    font-family: Paprika ;
+    font-size: 60px;
     color: rgb(72, 128, 233);
     font-weight: 600;
-    align-items: center ;
+    margin-left: 270px;
+    margin-top: 60px;
 }
 #a
 {
-    animation: pop 0.2s;
+    animation: pop 1s;
 }
 #b
 {
-    animation: pop 0.4s;
+    animation: pop 1.5s;
 }
 #c
 {
-    animation: pop 0.6s;
+    animation: pop 2s;
 }
 #d
 {
-    animation: pop 0.8s;
+    animation: pop 2.5s;
 }
 #d
 {
-    animation: pop 1s;
+    animation: pop 3s;
 }
 #e
 {
-    animation: pop 1.2s;
+    animation: pop 3.5s;
 }
 #f
 {
-    animation: pop 1.4s;
+    animation: pop 4s;
 }
 @keyframes pop
 {
     0%
     {
+        filter: blur(60px);
         margin-left: -1000px;
     }
     100%
     {
+        filter: blur(0px);
         margin-left: 0px;
     }
+}
+#inst
+{
+    height: 80px;
+    width: 70px;
+}
+#face
+{
+    height: 65px;
+    width: 80px;
+}
+#twit
+{
+    height: 50px;
+    width: 60px;
+}
+#cont4
+{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    margin-bottom: 0cm;
+    flex-direction: row;
+}
+.brand
+{
+    font-family: Paprika;
+    font-size: 10px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0px;
+    font-weight: 600;
 }
