@@ -1,0 +1,91 @@
+#font1
+{  
+    font-family: Dancing Script;
+    font-size: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    color:rgb(72, 128, 233);
+    justify-content: right;
+}
+#cont1
+{
+    font-family: Zen Tokyo Zoo ;
+    color: aqua;
+    font-size: 40px;
+    margin-top: 50 auto;
+    margin-left: 0px;
+    display: flex;
+    flex-direction: row;
+}
+#img1
+{
+    height: 100px;
+    width: 150px;
+}
+input
+{
+    border: none;
+    background-color: black;
+    color: aliceblue;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: right;
+    padding: 10px;
+    border-radius: 13px;
+    transition: 0.5s;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+}
+input:hover
+{
+    background-color:rgb(72, 128, 233);
+    font-size: 16px;
+}
+#cont3
+{
+    font-family: Dancing Script;
+    font-size: 50px;
+    color: rgb(72, 128, 233);
+    font-weight: 600;
+    align-items: center ;
+}
+#a
+{
+    animation: pop 0.2s;
+}
+#b
+{
+    animation: pop 0.4s;
+}
+#c
+{
+    animation: pop 0.6s;
+}
+#d
+{
+    animation: pop 0.8s;
+}
+#d
+{
+    animation: pop 1s;
+}
+#e
+{
+    animation: pop 1.2s;
+}
+#f
+{
+    animation: pop 1.4s;
+}
+@keyframes pop
+{
+    0%
+    {
+        margin-left: -1000px;
+    }
+    100%
+    {
+        margin-left: 0px;
+    }
+}
