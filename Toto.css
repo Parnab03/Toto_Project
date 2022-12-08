@@ -1,6 +1,7 @@
 .align1{
     display: flex;
     flex-direction: row;
+    background-color: rgb(24, 24, 24);
 }
 #cont2
 {
@@ -40,7 +41,7 @@
 input
 {
     border: none;
-    background-color: black;
+    background-color: green;
     color: aliceblue;
     font-size: 13px;
     font-weight: bold;
@@ -106,18 +107,27 @@ input:hover
 }
 #inst
 {
-    height: 80px;
-    width: 70px;
+    height: 75px;
+    width: 75x;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
 }
 #face
 {
     height: 70px;
-    width: 85px;
+    width: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
 }
 #twit
 {
-    height: 50px;
-    width: 60px;
+    height: 75px;
+    width: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
 }
 #cont4
 {
@@ -126,16 +136,23 @@ input:hover
     flex-direction: row;
     border: none;
     border-radius: 50px;
+    margin-bottom: 0px;
 }
 .brand
 {
     font-family: Paprika;
     font-size: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
 }
 .brand1
 {
     font-family:  Zen Tokyo Zoo;
     font-size: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
 }  
 .footer
 {
