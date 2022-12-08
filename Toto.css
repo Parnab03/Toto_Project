@@ -21,7 +21,7 @@
 #cont1
 {
     font-family: Zen Tokyo Zoo ;
-    color: aqua;
+    color: rgb(253, 118, 8);
     font-size: 50px;
     margin-top: 20px;
     margin-left: 0px;
@@ -111,8 +111,8 @@ input:hover
 }
 #face
 {
-    height: 65px;
-    width: 80px;
+    height: 70px;
+    width: 85px;
 }
 #twit
 {
@@ -123,17 +123,40 @@ input:hover
 {
     display: flex;
     justify-content: center;
-    align-items: baseline;
-    margin-bottom: 0cm;
     flex-direction: row;
+    border: none;
+    border-radius: 50px;
 }
 .brand
 {
     font-family: Paprika;
     font-size: 10px;
-    color: black;
+}
+.brand1
+{
+    font-family:  Zen Tokyo Zoo;
+    font-size: 35px;
+}  
+.footer
+{
+    background-color: rgb(63, 63, 63);
+    color: white;
+    font-weight: 100;
     display: flex;
     justify-content: center;
+    align-items: baseline;
     margin-bottom: 0px;
-    font-weight: 600;
+}
+#sub
+{
+    background-color: green;
+}
+sub:hover
+{
+    background-color:rgb(227, 248, 41);
+    font-size: 14px;
+    padding: 6px;
+    border-radius: 10px;
+    transition: 0.5s;
+    margin: 5px;
 }
