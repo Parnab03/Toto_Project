@@ -52,7 +52,7 @@
 #img1
 {
     height: 100px;
-    width: 175px;
+    width: 185px;
 }
 button
 {
@@ -66,6 +66,7 @@ button
     border-radius: 13px;
     transition: 0.7s;
     margin: 5px;
+    cursor: pointer;
 }
 button:hover
 {
@@ -122,33 +123,46 @@ button:hover
         margin-right: 0px;
     }
 }
+.Booking{
+    font-family: Paprika ;
+    font-size: 60px;
+    color: rgb(4, 91, 112);
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.hr{
+    color: aliceblue;
+    
+}
 .main-container{
-    width: 50%;
+    width: 57%;
     height: 45%;
     padding: 24px 24px 24px 16px;
-    position: relative;
     margin: 5% auto;
-    background: #caee60;
+    background: #4e1dd4;
     overflow: hidden;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    border-radius: 40px;
-    border: #ff105f 3px;
+    border-radius: 20px;
 }
 .btn-container{
     width: 255px;
     margin: 30px auto;
     position: relative;
-    box-shadow: 0 0 20px 9px #ff61241f;
+    box-sizing: content-box;
+    box-shadow: 0 0 20px 9px tomato;
     border-radius: 30px;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .main-btn{
     padding: 10px 20px;
     cursor: pointer;
+    background-color: #9b7bf1;
     background: transparent;
     border: 0;
     outline: none;
@@ -164,10 +178,11 @@ button:hover
     border-radius: 30px;
     transition: 0.5s;
 }
-.dasboard{
-    justify-content: space-between;
+.dashboard{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
 }
 /* footer starts from here */
 footer
@@ -223,7 +238,7 @@ footer
 .brand
 {
     font-family: Paprika;
-    font-size: 10px;
+    font-size: 15px;
     display: flex;
     justify-content: center;
 }
@@ -236,7 +251,7 @@ footer
 }  
 .sub
 {
-    background-color: rgb(146, 155, 146);
+    background-color: rgb(249, 250, 249);
     border-radius: 20px;
     font-size: 14px;
     font-weight: 500;
