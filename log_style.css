@@ -18,12 +18,13 @@
     background: #fff;
     padding: 5px;
     overflow: hidden;
+    border-radius: 20px;
 }
 .button-box{
     width: 220px;
     margin: 35px auto;
     position: relative;
-    box-shadow: 0 0 20px 9px #ff61241f;
+    box-shadow: 0 0 20px 9px #E4FCFC;
     border-radius: 30px;
 }
 .main-btn{
@@ -40,23 +41,12 @@
     position: absolute;
     width: 110px;
     height: 100%;
-    background: linear-gradient(to right,#ff105f,#ffad06);
+    background: linear-gradient(to right,#8C54FC,#0973EE);
     border-radius: 30px;
     transition: .5s;
 }
-.icons{
-    margin: 50px 50px;
-    padding: 10px;
-    text-align: center;
-}
-.icons img{
-    width: 30px;
-    margin: 0 12px;
-    box-shadow: 0 0 20px 0 #7f7f7f3d;
-    border-radius: 50%;
-}
 .input-grp{
-    top: 180px;
+    top: 160px;
     position: absolute;
     width: 280px;
     transition: .5s;
@@ -79,7 +69,7 @@
     cursor: pointer;
     display: block;
     margin: auto;
-    background: linear-gradient(to right,#ff105f,#ffad06);
+    background: linear-gradient(to right,#8C54FC,#0973EE);
     border: 0;
     outline: none;
     border-radius: 30px;
@@ -96,6 +86,6 @@ span{
 #login{
     left: 50px;
 }
-#register{
+#SignIn{
     left: 450px;
 }

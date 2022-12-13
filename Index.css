@@ -149,7 +149,7 @@ input
         margin-inline-start: 0px;
     }
 }
-.Booking{
+/* .Booking{
     font-family: Paprika ;
     font-size: 40px;
     color: rgb(4, 91, 112);
@@ -211,7 +211,7 @@ input
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-}
+} */
 /* footer starts from here */
 footer
 {

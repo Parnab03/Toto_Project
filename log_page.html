@@ -1,9 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
     <link rel="stylesheet" href="log_style.css">
     <title>Log_page</title>
 </head>
@@ -14,37 +11,33 @@
                 <div id="btn">
 
                 </div>
-                <button type="button" class="main-btn" onclick="login()">Log in</button>
-                <button type="button" class="main-btn" onclick="register()">register</button>
+                <button type="button" class="main-btn" onclick="login()">Log In</button>
+                <button type="button" class="main-btn" onclick="SignIn()">Sign In</button>
 
             </div>
-                <div class="icons">
-                    <img src="https://cliply.co/wp-content/uploads/2019/07/371907490_FACEBOOK_ICON_TRANSPARENT_400.gif">
-                    <img src="https://cliply.co/wp-content/uploads/2019/07/371907300_INSTAGRAM_ICON_TRANSPARENT_400.gif">
-                    <img src="https://cliply.co/wp-content/uploads/2019/07/371907030_TWITTER_ICON_TRANSPARENT_400.gif">
-             </div>
                 <form id="login" class="input-grp">
-                    <input type="text" class="input-field" placeholder="User Id" required>
+                    <input type="text" class="input-field" placeholder="Username" required>
                     <input type="text" class="input-field" placeholder="Enter Password" required>
                     <input type="checkbox" class="check-box"><span>Remember password</span>
                     <button type="submit" class="submit-btn">Log In</button>
                 </form>
-                <form id="register" class="input-grp">
-                    <input type="text" class="input-field" placeholder="User Id" required>
+                <form id="SignIn" class="input-grp">
+                    <input type="text" class="input-field" placeholder="Name" required>
                     <input type="email" class="input-field" placeholder="Email Id" required>
-                    <input type="text" class="input-field" placeholder="Enter Password" required>
+                    <input type="text" class="input-field" placeholder="Password" required>
+                    <input type="text" class="input-field" placeholder="Confirm Password" required>
                     <input type="checkbox" class="check-box"><span>I agree to all T & C</span>
-                    <button type="submit" class="submit-btn">Register</button>
+                    <button type="submit" class="submit-btn">Sign In</button>
                 </form>
         </div>
     </div>
 
     <script>
         var x = document.getElementById("login");
-        var y = document.getElementById("register");
+        var y = document.getElementById("SignIn");
         var z = document.getElementById("btn");
 
-        function register(){
+        function SignIn(){
             x.style.left = "-400px"
             y.style.left = "50px"
             z.style.left = "110px"
