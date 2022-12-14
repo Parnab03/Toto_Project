@@ -9,6 +9,7 @@
     background-position: center;
     background-size: cover;
     position: absolute;
+    font-family: Montserrat;
 }
 .form-box{
     width: 380px;
