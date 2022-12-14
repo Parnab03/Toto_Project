@@ -149,7 +149,7 @@ input
         margin-inline-start: 0px;
     }
 }
-/* .Booking{
+.Booking{
     font-family: Paprika ;
     font-size: 40px;
     color: rgb(4, 91, 112);
@@ -158,32 +158,32 @@ input
     justify-content: center;
     margin-top: 20px;
 }
-.hr{
+/*.hr{
     color: aliceblue;
     
-}
+}*/
 .main-container{
-    width: 57%;
-    height: 45%;
+    width: 750px;
+    height: auto;
     padding: 24px 24px 24px 16px;
     margin: 5% auto;
-    background: rgb(153, 13, 153);
+    background: #6C7A86;
     overflow: hidden;
-    display: flex;
+    /* display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: center; */
     border-radius: 20px;
 }
 .btn-container{
-    width: 255px;
+    width: 279px;
     margin: 30px auto;
     position: relative;
     box-sizing: content-box;
-    box-shadow: 0 0 20px 9px rgb(238, 29, 29);
+    box-shadow: 0 0 15px 3px #C8C8C8;
     border-radius: 30px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    /* display: flex;
+    flex-direction: row;
+    justify-content: space-between; */
 }
 .main-btn{
     font-family:Montserrat ;
@@ -196,7 +196,7 @@ input
     color: aliceblue;
     border-radius: 15px;
 }
-#btn{
+#btn-container{
     top: 0;
     left: 0;
     position: absolute;
@@ -211,7 +211,17 @@ input
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-} */
+}
+#bas{
+    align-items: center;
+    position: relative;
+    left: 130px;
+}
+#bfh{
+    align-items: center;
+    position: relative;
+    left: 830px;
+}
 /* footer starts from here */
 footer
 {
