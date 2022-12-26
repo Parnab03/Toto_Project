@@ -11,12 +11,11 @@
     <div class="page">
         <div class="form-box">
             <div class="button-box">
-                <div id="btn">
+                 <div id="btn">
 
-                </div>
+                </div> 
                 <button type="button" class="main-btn" onclick="login()">Log In</button>
                 <button type="button" class="main-btn" onclick="SignIn()">Sign In</button>
-
             </div>
                 <form id="login" class="input-grp">
                     <input type="text" class="input-field" placeholder="Username" required>
@@ -34,22 +33,6 @@
                 </form>
         </div>
     </div>
-
-    <script>
-        var x = document.getElementById("login");
-        var y = document.getElementById("SignIn");
-        var z = document.getElementById("btn");
-
-        function SignIn(){
-            x.style.left = "-400px"
-            y.style.left = "50px"
-            z.style.left = "110px"
-        }
-        function login(){
-            x.style.left = "50px"
-            y.style.left = "450px"
-            z.style.left = "0"
-        }
-    </script>
+   <script src="log_page.js"></script>
 </body>
 </html>

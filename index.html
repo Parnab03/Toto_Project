@@ -28,6 +28,10 @@
                 <font id="font2">TotoZone</font>
             </div>
             <nav>
+                <input type="checkbox" id="check">
+                <label for="check" class="checkbtn">
+                    <i class='fas fa-bars'></i>
+                </label>
                 <div id="cont2">
                     <font id="font1">My Account </font> 
                     <div id="nav">
@@ -53,6 +57,34 @@
             &nbsp;
             <span id="e">for</span>
             <span id="f">!</span>
+        </div>
+        <div id="align6">
+            <img class="size" src="https://static.vecteezy.com/system/resources/previews/002/426/985/original/business-man-cartoon-character-free-vector.jpg" alt="logo"> 
+            <p class="Booking">Book your seat now...</p>
+        </div>
+        <div id="space">
+            <div class="page">
+                <div class="main-container">
+                    <div class="btn-container">
+                        <button type="button" class="main-btn" onclick="bas()">Book a Seat</button>
+                        <button type="button" class="main-btn" onclick="bfh()">Book from Home</button>
+                    </div>
+                    <div id="dashboard">
+                        <form id="bas" action=".\d_thanks.html">
+                            <input class="sub" type="text" placeholder="Enter Community...">
+                            &nbsp;&nbsp;&nbsp;
+                            <input class="sub" type="text" placeholder="Enter Destination...">
+                            <button class="button" type="submit">Submit</button>
+                        </form>
+                        <form id="bfh" action=".\d_thanks.html">
+                            <input class="sub" type="text" placeholder="Your Location...">
+                            &nbsp;&nbsp;&nbsp;
+                            <input class="sub" type="text" placeholder="Enter Destination...">
+                            <button class="button" type="submit">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
         </div>
         <div>
             <p class="intro1">Introducing</p>
@@ -80,46 +112,6 @@
                 </div>
             </div>     
         </div>  
-        <div id="space">
-            <p class="Booking">Book your seat now...</p>
-            <div class="page">
-                <div class="main-container">
-                    <div class="btn-container">
-                        <button type="button" class="main-btn" onclick="bas()">Book a Seat</button>
-                        <!-- <hr class="hr"> -->
-                        <button type="button" class="main-btn" onclick="bfh()">Book from Home</button>
-                    </div>
-                    <div id="dashboard">
-                        <form id="bas" action=".\d_thanks.html">
-                            <input class="sub" type="text" placeholder="Enter Community...">
-                            <input class="sub" type="text" placeholder="Enter Destination...">
-                            <button class="button" type="submit">Submit</button>
-                        </form>
-                        <form id="bfh" action=".\d_thanks.html">
-                            <input class="sub" type="text" placeholder="Your Location...">
-                            <input class="sub" type="text" placeholder="Enter Destination...">
-                            <button class="button" type="submit">Submit</button>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-            <script>
-                var y = document.getElementById("bas");
-                var x = document.getElementById("bfh");
-                var z = document.getElementById("btn-container");
-        
-                function bas() {
-                    x.style.left = "-800px"
-                    y.style.left = "130px"
-                    z.style.left = "0"
-                }
-                function bfh() {
-                    x.style.left = "130px"
-                    y.style.left = "850px"
-                    z.style.left = "0"
-                }
-            </script>
         <footer>
             <div class="footer-content">
                 <p class="brand">
@@ -145,5 +137,6 @@
                 <p class="brand">Copyright &copy; 2022 | All rights reserved</p>
             </div>
         </footer>
+        <script src="index.js"></script>
     </body>
 </html>

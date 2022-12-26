@@ -35,6 +35,15 @@ li{
     justify-content: space-between;
     align-items: center;
 } 
+.checkbtn{
+    font-size: 20px;
+    color: aliceblue;
+    cursor: pointer;
+    float: right;
+}
+#check{
+    display: none;
+}
 .dashboard{
     padding: 0px 5px;
     color: white;
@@ -135,6 +144,10 @@ input
 {
     animation: pop 4s;
 }
+#g
+{
+    animation: pop 4.5s;
+}
 @keyframes pop
 {
     0%
@@ -163,6 +176,7 @@ input
     font-weight: 900;
     color: rgb(158, 197, 16);
     margin-left: 45px;
+    padding-top: 7px;
 }
 .intro3{
     height: 270px;
@@ -179,8 +193,8 @@ input
     margin-left: 35px;
 }
 .intro5{
-    height: 400px;
-    width: 500px;
+    height: 370px;
+    width: 470px;
     margin-left: 4%;
     margin-top: 7%;
 }
@@ -213,28 +227,37 @@ input
 #align4{
     display: flex;
     flex-direction: column;
+    padding-top: 25px;
 }
 #align5{
     display: inline-block;
     display: flex;
     justify-content: space-between;
 }
+#align6{
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    padding-top: 70px;
+}
 #space{
     margin-top: 5%;
+}
+.size{
+    height: 150px;
+    width: auto;
+    margin-left: 4%;
+    margin-top: 0%;
 }
 .Booking{
     font-family: Paprika ;
     font-size: 40px;
-    color: rgb(4, 91, 112);
+    color: rgb(158, 197, 16);
     font-weight: 600;
     display: flex;
     justify-content: center;
-    margin-top: 20px;
+    margin-top: 60px;
 }
-/*.hr{
-    color: aliceblue;
-    
-}*/
 .main-container{
     width: 750px;
     height: auto;
@@ -242,9 +265,6 @@ input
     margin: 5% auto;
     background: #1d3f50;
     overflow: hidden;
-    /* display: flex;
-    flex-direction: row;
-    justify-content: center; */
     border-radius: 20px;
 }
 .btn-container{
@@ -254,9 +274,6 @@ input
     box-sizing: content-box;
     box-shadow: 0 0 15px 3px #C8C8C8;
     border-radius: 30px;
-    /* display: flex;
-    flex-direction: row;
-    justify-content: space-between; */
 }
 .main-btn{
     font-family:Montserrat ;
@@ -286,11 +303,13 @@ input
     align-items: center;
 }
 #bas{
+    display: flex;
     align-items: center;
     position: relative;
     left: 130px;
 }
 #bfh{
+    display: flex;
     align-items: center;
     position: relative;
     left: 830px;
@@ -364,10 +383,11 @@ footer
 .sub
 {
     background-color: rgb(249, 250, 249);
+    color: black;
     border-radius: 20px;
     font-size: 14px;
-    font-weight: 500;
-    padding: 3px;
+    font-weight: bold;
+    padding: 3px 5px;
     transition: 0.7s;
     display: inline-block;
 }
