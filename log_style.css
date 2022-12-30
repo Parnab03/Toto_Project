@@ -62,7 +62,6 @@
     border-bottom: 1px solid #999;
     outline: none;
     background: transparent;
-
 }
 .submit-btn{
     width: 85%;
@@ -89,4 +88,13 @@ span{
 }
 #SignIn{
     left: 450px;
+}
+/* .material-symbols-outlined{
+    display: none;
+} */
+#home i a{
+    text-decoration: none;
+    color: white;
+    margin-left: 625px;
+    cursor: pointer;
 }
