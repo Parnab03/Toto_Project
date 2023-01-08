@@ -12,13 +12,13 @@ header
     box-sizing: border-box;
 }
 /* #banner{
-    background-image: linear-gradient(rgba(0,0,0.5),rgba(39, 188, 199)), url(https://thumbs.dreamstime.com/b/cheerful-man-standing-tuk-taxi-sri-lankan-148838457.jpg); 
+    background-image: linear-gradient(rgb(172, 235, 176),rgb(253, 253, 253)), url(https://thumbs.dreamstime.com/b/cheerful-man-standing-tuk-taxi-sri-lankan-148838457.jpg); 
     background-size: cover;
     background-attachment: fixed;
     background-position: center center;
-    height: 500px;
+    height: 700px;
     width: 100%; 
-}*/
+} */
 .logo{
     cursor: pointer;
 }
@@ -124,12 +124,7 @@ header
     text-decoration: none;
     display: block;
 }
-.contents ul {
-    transition: 0.3s ease 0s;
-    list-style-type: none;
-    cursor: pointer;
-}
-.contents ul li a:hover{
+a.active,.contents ul li a:hover{
     color: cyan;
 }
 nav label i{
@@ -156,6 +151,8 @@ nav label i:hover{
         width: 160px;
         border-radius: 15px;
         transition: all 0.4s ease;
+        list-style-type: none;
+        cursor: pointer;
     }
 }
 #click:checked ~ .contents ul{
@@ -236,6 +233,51 @@ input
         margin-inline-start: 0px;
     }
 }
+#button ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+#button ul li{
+    margin: 100px 30px;
+    display: inline;
+}
+#button ul li .btn1{
+    background: white;
+    color: black;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 50px;
+    border: black 1px solid;
+    height: auto;
+    width: auto;
+    padding: 30px 30px;
+    cursor: pointer;
+    transition: 0.7s;
+}
+#button ul li .btn1:hover{
+    color: white;
+    background: black;
+}
+#button ul li .btn2{
+    background: rgb(87, 145, 1);
+    color: white;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 400;
+    border-radius: 50px;
+    height: auto;
+    width: auto;
+    padding: 30px 30px;
+    cursor: pointer;
+    border: none;
+    transition: 0.7s;
+}
+#button ul li .btn2:hover{
+    color: white;
+    background: rgb(33, 106, 165);
+}
 .intro1{
     margin-top: 10%;
     font-family: Montserrat;
@@ -270,7 +312,7 @@ input
 .intro5{
     height: 370px;
     width: 400px;
-    margin-left: 3%;
+    margin-left: 5%;
     margin-top: 7%;
 }
 #align2{
@@ -288,7 +330,7 @@ input
     font-size: 50px;
     font-weight: 900;
     color: rgb(158, 197, 16);
-    margin-right: 5px;
+    margin-right: 25px;
 }
 .intro7{
     margin-top: 9%;
@@ -296,7 +338,7 @@ input
     font-size: 17px;
     font-weight: 400;
     color: black;
-    margin-right: 5px;
+    margin-right: 25px;
 }
 #align4{
     display: flex;
@@ -305,15 +347,15 @@ input
     justify-content: space-between;
 }
 #align5{
-    display: inline-block;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
 }
 #align6{
-    display: inline-block;
     display: flex;
+    flex-direction: row;
     justify-content: center;
-    padding-top: 70px;
+    padding-top: 20px;
 }
 #align4 ul{
     list-style: none;
