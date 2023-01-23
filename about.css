@@ -1,0 +1,70 @@
+/* about.css */
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+  }
+  
+  header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  header nav ul li {
+    margin: 0 1em;
+  }
+  
+  header nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  section {
+    padding: 2em;
+  }
+  
+  #about {
+    background-color: #f9f9f9;
+  }
+  
+  #team {
+    background-color: #f0f0f0;
+  }
+  
+  #contact {
+    background-color: #e5e5e5;
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 0.5em;
+  }
+  
+  form input[type="text"], form input[type="email"], form textarea {
+    width: 100%;
+    padding: 0.5em;
+    margin-bottom: 1em;
+    box-sizing: border-box;
+  }
+  
+  form input[type="submit"] {
+    background-color: #333;
+    color: white;
+    padding: 0.5em 1em;
+    border: none;
+    cursor: pointer;
+  }
+  
+  form input[type="submit"]:hover {
+    background-color: #444;
+  }
+  
+  
