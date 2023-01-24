@@ -2,8 +2,7 @@
 <html>
   <head>
     <title>About Us</title>
-    <link rel="stylesheet" type="text/css" href="about.css">
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="about.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=La+Belle+Aurore&display=swap" rel="stylesheet">
@@ -42,7 +41,6 @@
                                 </ul>
                             </div>
                         </i>
-                        <!-- <font id="font1">My Account </font>  -->
                     </div>
                     <input type="checkbox" id="click"> 
                     <label for="click" class="drop-btn">
@@ -59,15 +57,6 @@
             </nav>
         </div>
     </header>
-    <!-- <header>
-      <nav>
-        <ul>
-          <li><a href="#about">About</a></li>
-          <li><a href="#team">Team</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
-    </header> -->
     <section id="about">
       <h1>About Us</h1>
       <p>This website is a project work under our B.tech curriculum on PR191: Theme Based Project. </p>
@@ -86,38 +75,44 @@
       <h1>Contact Us</h1>
       <form>
         <label for="name">Name:</label>
-        <input type="text" id="name" name="name"><br>
+        <input type="text" id="name" name="name">
+        <br>
         <label for="email">Email:</label>
-        <input type="email" id="email" name="email"><br>
+        <input type="email" id="email" name="email">
+        <br>
         <label for="message">Message:</label>
-        <textarea id="message" name="message"></textarea><br>
+        <textarea id="message" name="message"></textarea>
+        <br>
         <input type="submit" value="Send">
       </form>
     </section>
     <footer>
-        <div class="footer-content">
-            <p class="brand">
-                Want to receive exclusive offers?  Subscribe to our newsletter!
-            </p>
-            <br><br>
-            <form action="Thanks.html">
-                <input class="sub" type="text" placeholder="Your email address..." required>
-                <button class="button" type="submit">Subscribe</button>
-            </form>
-        </div>
-        <div id="cont4">
-            <ul class="social">
-                <li class="icon"><i class="fa fa-linkedin"></i></li>
-                <li class="icon"><i class="fa fa-facebook"></i></li>
-                <li class="icon"><i class="fa fa-pinterest-p"></i></li>
-                <li class="icon"><i class="fa fa-instagram"></i></li>
-            </ul>
-        </div>
-        <div class="footer-bottom">
-            <p class="brand1">TotoZone</p>
-            <br>
-            <p class="brand">Copyright &copy; 2022 | All rights reserved</p>
-        </div>
-    </footer>
+      <div class="footer-content">
+          <p class="brand">
+              Want to receive exclusive offers?  Subscribe to our newsletter!
+          </p>
+          <br><br>
+          <!-- <div>
+            
+          </div> -->
+          <form id="align" action="Thanks.html">
+            <input class="sub" type="text" placeholder="Your email address..." required>
+            <button class="button" type="submit">Subscribe</button>
+          </form>
+      </div>
+      <div id="cont4">
+          <ul class="social">
+              <li class="icon"><i class="fa fa-linkedin"></i></li>
+              <li class="icon"><i class="fa fa-facebook"></i></li>
+              <li class="icon"><i class="fa fa-pinterest-p"></i></li>
+              <li class="icon"><i class="fa fa-instagram"></i></li>
+          </ul>
+      </div>
+      <div class="footer-bottom">
+          <p class="brand1">TotoZone</p>
+          <br>
+          <p class="brand">Copyright &copy; 2022 | All rights reserved</p>
+      </div>
+  </footer>
   </body>
 </html>
