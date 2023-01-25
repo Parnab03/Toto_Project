@@ -200,12 +200,14 @@ nav label i:hover{
       display: flex;
       justify-content: center;
       align-items: center;
-      margin: 1rem 0 2rem 0;
+      /* margin: 1rem 0 2rem 0; */
       padding: 30px 40px;
   }
   .social li
   {
-      margin: 0 10px;
+      margin: 0 20px;
+      display: flex;
+      justify-content: center;
   }
   .icon{
       height: 30px;

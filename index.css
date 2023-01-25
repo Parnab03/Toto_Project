@@ -27,10 +27,10 @@ header
 #bnr_p{
     font-family: Montserrat;
     color: white;
-    size: 18px;
+    font-size: 18px;
     display: flex;
     justify-content: center;
-    padding: 40px 250px;
+    padding: 40px 200px;
     animation: banner_p 4s;
 } 
 @keyframes banner_p{
@@ -395,7 +395,7 @@ input
     height: auto;
     padding: 24px 24px 24px 16px;
     margin: 5% auto;
-    background: #1d3f50;
+    background: rgb(40, 40, 40);
     overflow: hidden;
     border-radius: 20px;
 }
@@ -476,13 +476,14 @@ footer
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 1rem 0 2rem 0;
+    /* margin: 1rem 0 2rem 0; */
     padding: 30px 40px;
 }
 .social li
 {
-    margin: 0 10px;
-
+    margin: 0 20px;
+    display: flex;
+    justify-content: center;
 }
 .icon{
     height: 30px;

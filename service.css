@@ -1,5 +1,6 @@
-* {
-  box-sizing: border-box;
+*{
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -176,91 +177,93 @@ img {
   flex: 1;
 }
 
-footer {
+/* footer {
   background-color: #4caf50;
   color: #fff;
   padding: 1rem;
   text-align: center;
-}
+} */
 
 /* Add hover effect to the navigation links */
 nav a:hover {
   color: #ccc;
 }
 /* Add hover effect
-  /* footer starts from here */
-  footer
-  {
-      background-color: rgb(33, 33, 33);
-      height: auto;
-      width: auto;
-      padding-top: 40px;
-      color: aliceblue;
-  }
-  .footer-content
-  {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      flex-direction: column;
-      text-align: center;
-  }
-  .social
-  {
-      list-style: none;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      margin: 1rem 0 2rem 0;
-      padding: 30px 40px;
-  }
-  .social li
-  {
-      margin: 0 10px;
-  }
-  .icon{
-      height: 30px;
-      width: 55px;
-      transition: 0.7s;
-      cursor: pointer;
-      font-size: 25px;
-  }
-  .icon :hover{
-      color: aqua;
-  }
-  #cont4
-  {
-      display: flex;
-      justify-content: center;
-      flex-direction: row;
-  }
-  .brand
-  {
-      font-family: Paprika;
-      font-size: 15px;
-      display: flex;
-      justify-content: center;
-      padding-bottom: 2%;
-  }
-  .brand1
-  {
-      font-family:  Zen Tokyo Zoo;
-      font-size: 35px;
-      display: flex;
-      justify-content: center;
-  }  
-  .sub
-  {
-      background-color: rgb(249, 250, 249);
-      color: black;
-      border-radius: 20px;
-      font-size: 14px;
-      font-weight: 400;
-      padding: 3px 5px;
-      transition: 0.7s;
-      display: inline-block;
-  }
-  .button
+/* footer starts from here */
+footer
+{
+    background-color: rgb(33, 33, 33);
+    height: auto;
+    width: auto;
+    padding-top: 40px;
+    color: aliceblue;
+}
+.footer-content
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.social
+{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: 1rem 0 2rem 0; */
+    padding: 30px 40px;
+}
+.social li
+{
+    margin: 0 5px;
+    display: flex;
+    justify-content: center;
+}
+.icon{
+    height: 30px;
+    width: 55px;
+    transition: 0.7s;
+    cursor: pointer;
+    font-size: 25px;
+}
+.icon :hover{
+    color: aqua;
+}
+#cont4
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.brand
+{
+    font-family: Paprika;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2%;
+}
+.brand1
+{
+    font-family:  Zen Tokyo Zoo;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+}  
+.sub
+{
+    background-color: rgb(249, 250, 249);
+    color: black;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 3px 5px;
+    transition: 0.7s;
+    display: inline-block;
+}
+.button
 {
     background-color: green;
     color: aliceblue;
