@@ -17,7 +17,7 @@ header
     box-sizing: border-box;
 }
 #banner{
-    background-image: linear-gradient(rgba(0,0,0.5,1),rgba(0,0,0.5,0)),url(https://t4.ftcdn.net/jpg/04/68/58/83/360_F_468588320_98M7a6EtlzP7xKHkVZFDctrymnF03K1Y.jpg); 
+    background-image: linear-gradient(rgba(0,0,0.5,1),rgba(0, 0, 0.5, 0)),url(https://t4.ftcdn.net/jpg/04/68/58/83/360_F_468588320_98M7a6EtlzP7xKHkVZFDctrymnF03K1Y.jpg); 
     width: 100%;
     height: 650px;
     /* background: no-repeat;   */
@@ -27,7 +27,7 @@ header
 #bnr_p{
     font-family: Montserrat;
     color: white;
-    size: 15px;
+    size: 18px;
     display: flex;
     justify-content: center;
     padding: 40px 250px;
@@ -222,13 +222,13 @@ input
 {
     0%
     {
-        filter: blur(5px); 
-        margin-block-start: 200px;
+        filter: blur(50px); 
+        margin-inline-start: 100px;
     }
     100%
     {
         filter: blur(0px); 
-        margin-block-start: 0px;
+        margin-inline-start: 0px;
     }
 }
 #button ul{
@@ -270,7 +270,7 @@ input
     width: auto;
     padding: 30px 30px;
     cursor: pointer;
-    border: none;
+    border: 1px black solid;
     transition: 0.7s;
 }
 #button ul li .btn2:hover{
