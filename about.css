@@ -54,17 +54,54 @@ body {
     height: 100px;
     width: 185px;
 }
-#home a{
-    text-decoration: none;
-    color: white;
+#nav ul{
+    list-style-type: none;
+    display: none;
 }
-#home{
+#account{
+    color: #C8C8C8;
     height: 40px;
     width: 40px;
 }
-#home a:hover{
+#account:hover{
     color: cyan;
     cursor: pointer;
+}
+#account:hover #nav{
+    display: block;
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 0px;
+    transition: all 0.5s ease;
+}
+#account:hover #nav ul{
+    display: block;
+    background-color: rgb(45, 45, 45);
+    border-radius: 10px;
+}
+#account:hover #nav ul li{
+    margin: 10px;
+    padding: 20px;
+    background: transparent;
+    border-bottom: 1px solid white;
+}
+#account:hover #nav ul li:last-child{
+    border-bottom: none;
+}
+.dashboard{
+    padding: 0px 5px;
+    color: white;
+    transition: 0.3s ease 0s;
+    cursor: pointer;
+    list-style: none;
+    text-decoration: none;
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 15px;  
+    text-align: left;
+}
+.dashboard:hover{
+    color: cyan;
 }
 .contents ul li a{
     padding: 20px 5px;
@@ -154,19 +191,19 @@ nav label i:hover{
     background-color: #e5e5e5;
   }
   
-  form label {
+  #form1 label {
     display: block;
     margin-bottom: 0.5em;
   }
   
-  form input[type="text"], form input[type="email"], form textarea {
+  #form1 input[type="text"], form input[type="email"], form textarea {
     width: 100%;
     padding: 0.5em;
     margin-bottom: 1em;
     box-sizing: border-box;
   }
   
-  form input[type="submit"] {
+  #form1 input[type="submit"] {
     background-color: #333;
     color: white;
     padding: 0.5em 1em;
@@ -174,7 +211,7 @@ nav label i:hover{
     cursor: pointer;
   }
   
-  form input[type="submit"]:hover {
+  #form1 input[type="submit"]:hover {
     background-color: #444;
   }
   /* footer starts from here */
@@ -267,7 +304,8 @@ button:hover
 {
     background-color:rgb(72, 128, 233);
 }
-#align{
+/* #align{
     display: inline-flex;
-} 
+    justify-content: center;
+}  */
 /* footer ends here */
