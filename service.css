@@ -79,13 +79,13 @@ header
     background-color: rgb(45, 45, 45);
     border-radius: 10px;
 }
-#account:hover #nav ul li{
+#account:hover #nav ul #li2{
     margin: 10px;
     padding: 20px;
     background: transparent;
     border-bottom: 1px solid white;
 }
-#account:hover #nav ul li:last-child{
+#account:hover #nav ul #li2:last-child{
     border-bottom: none;
 }
 .dashboard{
@@ -196,6 +196,10 @@ ul {
 }
 
 li {
+  /* display: inline-flex; */
+  align-items: center;
+}
+#li1 {
   display: flex;
   align-items: center;
 }
