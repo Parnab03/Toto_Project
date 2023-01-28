@@ -12,3 +12,13 @@ function bfh() {
     y.style.left = "850px"
     z.style.left = "0"
 }
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementsByClassName("contents").style.right = "0";
+  } else {
+    document.getElementsByClassName("contents").style.right = "-100px";
+  }
+  prevScrollpos = currentScrollPos;
+}
