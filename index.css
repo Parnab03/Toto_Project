@@ -305,10 +305,10 @@ input
     font-family: Paprika;
     font-size: 50px;
     font-weight: 900;
-    color: yellow;
+    color: rgb(160, 231, 54);
     margin-left: 45px;
     padding-top: 7px;
-    text-shadow: 4px 4px rgb(158, 197, 16);
+    text-shadow: 4px 4px rgb(6, 97, 41);
 }
 .intro3{
     height: 270px;
@@ -356,6 +356,16 @@ input
     color: black;
     margin-right: 25px;
 }
+.intro8{
+    margin-top: 7%;
+    font-family: Paprika;
+    font-size: 50px;
+    font-weight: 900;
+    color: yellow;
+    margin-left: 45px;
+    padding-top: 7px;
+    text-shadow: 4px 4px rgb(95, 116, 21); 
+}
 #align4{
     display: flex;
     flex-direction: column;
@@ -401,11 +411,12 @@ input
 .Booking{
     font-family: Montserrat;
     font-size: 50px;
-    color: rgb(3, 3, 3);
+    color: white;
     font-weight: 600;
     display: flex;
     justify-content: center;
     margin-top: 130px;
+    text-shadow: 2px 2px 5px rgb(3, 3, 3);
 }
 #intro8{
     height: 180px;
@@ -416,7 +427,7 @@ input
 #UR_offer{
     display: flex;
     justify-content: center;
-    margin-top: 10%; 
+    margin-top: 8%; 
 }
 .offer{
     font-family: Paprika;
