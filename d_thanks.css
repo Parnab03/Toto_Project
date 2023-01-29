@@ -1,0 +1,220 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+  }
+  /* navigation bar starts here*/
+  header
+  {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 5px 3%;
+      background-color: rgb(24, 24, 24);
+      box-sizing: border-box;
+  }
+  .logo{
+      cursor: pointer;
+  }
+  #cont2{
+      display: inline-flex;
+      justify-content: space-between;
+      align-items: center;
+  }
+  #inline{
+      display: inline-flex;
+      justify-content: space-between;
+  }
+  #header{
+      display: inline-flex;
+      justify-content: space-between;
+      width: 100%;
+      align-items: center;
+  }
+  #cont1
+  {
+      font-family: Zen Tokyo Zoo ;
+      color: rgb(253, 118, 8);
+      font-size: 50px;
+      margin-top: 20px;
+      margin-left: 0px;
+      display:inline-flex;
+      cursor: pointer;
+  }
+  #font2
+  {
+      margin-top: 25px;
+      margin-left: 0px;
+  }
+  #img1
+  {
+      height: 100px;
+      width: 185px;
+  }
+  #home a{
+      text-decoration: none;
+      color: white;
+  }
+  #home{
+      height: 40px;
+      width: 40px;
+  }
+  #home a:hover{
+      color: cyan;
+      cursor: pointer;
+  }
+  .contents ul li a{
+      padding: 20px 5px;
+      color: white;
+      font-family: Montserrat;
+      font-size: 15px;
+      font-weight: 500;
+      text-decoration: none;
+      display: block;
+  }
+  a.active,.contents ul li a:hover{
+      color: cyan;
+  }
+  nav label i{
+      color: white;
+      font-size: 20px;
+      margin-right: 20px;
+      padding-left: 30px;
+      align-items: center;
+      cursor: pointer;
+  }
+  nav label i:hover{
+      color: cyan;
+  }
+  @media (max-width: 100vw){
+      .contents ul{
+          position: fixed;
+          right: -100%;
+          background-color: rgb(43, 43, 43);
+          color: aliceblue;
+          top: 120px;
+          display: block;
+          text-align: center;
+          height: auto;
+          width: 160px;
+          border-radius: 15px;
+          transition: all 0.4s ease;
+          list-style-type: none;
+          cursor: pointer;
+      }
+  }
+  #click:checked ~ .contents ul{
+      right: 0%;
+      margin-right: 15px;
+  }
+  #click{
+      display: none;
+  }
+  /* header ends here */
+  body {
+    background-color: #fff;
+    /* font-family: sans-serif; */
+    text-align: center;
+  }
+
+  h1 {
+    color: #333;
+  }
+
+/* footer starts from here */
+footer
+{
+    background-color: rgb(33, 33, 33);
+    height: auto;
+    width: auto;
+    padding-top: 40px;
+    color: aliceblue;
+}
+.footer-content
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.social
+{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: 1rem 0 2rem 0; */
+    padding: 50px 40px;
+}
+.social li
+{
+    margin: 0 5px;
+    display: flex;
+    justify-content: center;
+}
+.icon{
+    height: 30px;
+    width: 55px;
+    transition: 0.7s;
+    cursor: pointer;
+    font-size: 25px;
+}
+.icon :hover{
+    color: aqua;
+}
+#cont4
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.brand
+{
+    font-family: Paprika;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2%;
+}
+.brand1
+{
+    font-family:  Zen Tokyo Zoo;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+}  
+.sub
+{
+    background-color: rgb(249, 250, 249);
+    color: black;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 3px 5px;
+    transition: 0.7s;
+    display: inline-block;
+}
+.button
+{
+    background-color: green;
+    color: aliceblue;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 6px;
+    border-radius: 13px;
+    transition: 0.7s;
+    margin: 5px;
+    cursor: pointer;
+    border: 0;
+    outline: none;
+}
+button:hover
+{
+    background-color:rgb(72, 128, 233);
+}
+/* footer ends here */
