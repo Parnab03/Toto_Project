@@ -6,7 +6,7 @@
 
 - 🌱 Our journey till date: **https://totozone.000webhostapp.com/**
 
-- 💬 Why us: **We prioritize clients comfort for a better journey**
+- 💬 Why us: **We prioritize client comfort for a better journey**
 
 - 📫 How to reach us: **letscode.jisce@gmail.com**
 
