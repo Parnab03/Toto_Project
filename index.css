@@ -411,12 +411,12 @@ input
 .Booking{
     font-family: Montserrat;
     font-size: 50px;
-    color: rgb(202, 197, 197);
+    color: rgb(219, 215, 215);;
     font-weight: 600;
     display: flex;
     justify-content: center;
     margin-top: 130px;
-    text-shadow: 5px 5px 2px rgb(3, 3, 3);
+    text-shadow: 2px 2px 5px rgb(3, 3, 3);
 }
 #intro8{
     height: 180px;
@@ -439,9 +439,6 @@ input
     justify-content: center;
     text-shadow: 2px 2px rgb(135, 112, 199);
 }
-/* .offer:checked{
-    color: cyan;
-} */
 .main-container{
     width: 750px;
     height: auto;
@@ -527,7 +524,8 @@ footer
     list-style: none;
     display: flex;
     justify-content: center;
-    align-items: center; 
+    align-items: center;
+    /* margin: 1rem 0 2rem 0; */
     padding: 50px 40px;
 }
 .social li
