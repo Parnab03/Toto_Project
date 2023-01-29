@@ -10,7 +10,7 @@
 
 - 📫 How to reach us : **letscode.jisce@gmail.com**
 
-- ⚡ Fun fact : **Not a single one have ever tried your service**
+- ⚡ Fun fact : **Not a single one have ever tried our service**
 
 <h3 align="left">Connect with US:</h3>
 <p align="left">
