@@ -416,7 +416,7 @@ input
     display: flex;
     justify-content: center;
     margin-top: 130px;
-    text-shadow: 2px 2px 5px rgb(3, 3, 3);
+    text-shadow: 4px 4px 2px rgb(3, 3, 3);
 }
 #intro8{
     height: 180px;
