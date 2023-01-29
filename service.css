@@ -76,7 +76,7 @@
       text-decoration: none;
       display: block;
   }
-  a.active,.contents ul li a:hover{
+  a#active,.contents ul li a:hover{
       color: cyan;
   }
   nav label i{
