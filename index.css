@@ -1,37 +1,37 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 body
 {
     background-color: white;
-
 }
 header
 {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 5px 3%;
-    background-color: rgb(24, 24, 24);
-    box-sizing: border-box;
+    padding: 10px 3%; 
+    /* background-color: rgb(24, 24, 24); */
+    background-color: rgba(143, 132, 132, 0.5); 
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    position: sticky;
+    top: 0px;
 }
 #banner{
-    background-image: linear-gradient(rgba(0,0,0.5,1),rgba(0, 0, 0.5, 0)),url(https://t4.ftcdn.net/jpg/04/68/58/83/360_F_468588320_98M7a6EtlzP7xKHkVZFDctrymnF03K1Y.jpg); 
-    width: 100%;
-    height: 650px;
-    /* background: no-repeat;   */
+    background-image: linear-gradient(rgba(0,0,0.5,1),rgba(0, 0, 0.5,0)),url(https://t4.ftcdn.net/jpg/04/68/58/83/360_F_468588320_98M7a6EtlzP7xKHkVZFDctrymnF03K1Y.jpg); 
+    width: 100vw;
+    height: 650px; 
+    /* background-repeat: no-repeat;  */
     background-attachment: fixed;
-    background-position: center center;
+    background-position: center center; 
 } 
 #bnr_p{
     font-family: Montserrat;
     color: white;
     font-size: 18px;
-    word-spacing: 3px;
+    word-spacing: 2px;
     display: flex;
     justify-content: center;
-    padding: 40px 200px;
+    padding: 40px 200px; 
     animation: banner_p 3.5s;
 } 
 @keyframes banner_p{
@@ -45,14 +45,12 @@ header
         filter: blur(0px);  
         margin-block-start: 0px;
     }
-}
+} 
 .logo{
     cursor: pointer;
 }
 #cont2{
-    display: inline-flex;
-    justify-content: space-between;
-    align-items: center;
+    text-align: center;
 }
 #inline{
     display: inline-flex;
@@ -63,15 +61,15 @@ header
     justify-content: space-between;
     width: 100%;
     align-items: center;
-}
+} 
 #cont1
 {
     font-family: Zen Tokyo Zoo ;
-    color: rgb(253, 118, 8);
+    color: #000000;
     font-size: 50px;
     margin-top: 20px;
     margin-left: 0px;
-    display:inline-flex;
+    /* display:inline-block; */
     cursor: pointer;
 }
 #font2
@@ -79,17 +77,18 @@ header
     margin-top: 25px;
     margin-left: 0px;
 }
-#img1
+/* #img1
 {
     height: 100px;
     width: 185px;
-}
+}  */
 #nav ul{
     list-style-type: none;
     display: none;
+    float: right;
 }
 #account{
-    color: #C8C8C8;
+    color: #000000;
     height: 40px;
     width: 40px;
 }
@@ -98,21 +97,21 @@ header
     cursor: pointer;
 }
 #account:hover #nav{
-    display: block;
+    /* display: block;  */
     position: absolute;
     margin-top: 15px;
-    margin-left: -60px;
+    margin-left: -47px;
     transition: all 0.5s ease;
 }
 #account:hover #nav ul{
-    display: block;
-    background-color: rgb(45, 45, 45);
+    display: block; 
+    background-color: rgb(43, 43, 43);
     border-radius: 10px;
 }
 #account:hover #nav ul li{
     margin: 10px;
-    padding: 20px;
-    background: transparent;
+    padding: 13px;
+    /* background: transparent; */
     border-bottom: 1px solid white;
 }
 #account:hover #nav ul li:last-child{
@@ -128,13 +127,13 @@ header
     font-family: Montserrat;
     font-weight: 500;
     font-size: 15px;  
-    text-align: left;
+    /* text-align: left; */
 }
 .dashboard:hover{
     color: cyan;
 }
 .contents ul li a{
-    padding: 20px 5px;
+    padding: 17px 5px;
     color: white;
     font-family: Montserrat;
     font-size: 15px;
@@ -146,10 +145,10 @@ a#active,.contents ul li a:hover{
     color: cyan;
 }
 nav label i{
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 20px;
     margin-right: 20px;
-    padding-left: 30px;
+    padding-left: 40px;
     align-items: center;
     cursor: pointer;
 }
@@ -162,7 +161,7 @@ nav label i:hover{
         right: -100%;
         background-color: rgb(43, 43, 43);
         color: aliceblue;
-        top: 120px;
+        top: 105px;
         display: block;
         text-align: center;
         height: auto;
@@ -314,8 +313,8 @@ input
     text-shadow: 4px 4px rgb(6, 97, 41);
 }
 .intro3{
-    height: 270px;
-    width: 330px;
+    height: 250px;
+    width: 370px;
     padding-right: 7%;
     margin-top: 0%;
 }
@@ -414,12 +413,12 @@ input
 .Booking{
     font-family: Montserrat;
     font-size: 50px;
-    color: rgb(219, 215, 215);
     font-weight: 600;
     display: flex;
     justify-content: center;
     margin-top: 130px;
-    text-shadow: 4px 4px 2px rgb(3, 3, 3);
+    color: rgb(24, 23, 23);
+    /* text-shadow: 2px 3px 3px yellowgreen; */
 }
 #intro8{
     height: 180px;
@@ -442,9 +441,6 @@ input
     justify-content: center;
     text-shadow: 2px 2px rgb(135, 112, 199);
 }
-/* .offer:checked{
-    color: cyan;
-} */
 .main-container{
     width: 750px;
     height: auto;
@@ -457,7 +453,7 @@ input
 .btn-container{
     width: 279px;
     margin: 30px auto;
-    position: relative;
+    /* position: relative; */
     box-sizing: content-box;
     box-shadow: 0 0 15px 3px #C8C8C8;
     border-radius: 30px;
@@ -468,18 +464,19 @@ input
     cursor: pointer;
     background: transparent;
     border: 0;
-    outline: none;
-    position: relative;
+    /* outline: none;
+    position: relative; */
     color: aliceblue;
     border-radius: 15px;
 }
 #btn-container{
     top: 0;
     left: 0;
-    position: absolute;
+    /* position: absolute; */
     width: 255px;
-    height: 100vh;
-    background: linear-gradient(to right,#ff105f,#ffad06);
+    height: auto;
+    /* height: 100vh; */
+    /* background: linear-gradient(to right,#ff105f,#ffad06); */
     border-radius: 30px;
     transition: 0.5s;
 }
@@ -499,19 +496,20 @@ input
 #bas{
     display: flex;
     align-items: center;
-    position: relative;
+    position: relative; 
     left: 130px;
 }
 #bfh{
     display: flex;
     align-items: center;
-    position: relative;
+    position: relative; 
     left: 830px;
+    backface-visibility: hidden;
 }
 /* footer starts from here */
 footer
 {
-    background-color: rgb(33, 33, 33);
+    background-color: rgb(0, 0, 0);
     height: auto;
     width: auto;
     padding-top: 40px;
