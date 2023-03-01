@@ -11,29 +11,46 @@ header
 {
     padding: 10px 3%; 
     /* background-color: rgb(24, 24, 24); */
-    background-color: rgba(143, 132, 132, 0.5); 
+    background-color: rgba(206, 195, 195, 0.5); 
     /* background-color: rgba(0, 0, 0, 0.5); */
     position: sticky;
     top: 0px;
 }
 #banner{
-    background-image: linear-gradient(rgba(0,0,0.5,1),rgba(0, 0, 0.5,0)),url(https://t4.ftcdn.net/jpg/04/68/58/83/360_F_468588320_98M7a6EtlzP7xKHkVZFDctrymnF03K1Y.jpg); 
+    /* background-image: linear-gradient(rgba(0,0,0.5,1),rgba(0, 0, 0.5,0)),url(https://t4.ftcdn.net/jpg/04/68/58/83/360_F_468588320_98M7a6EtlzP7xKHkVZFDctrymnF03K1Y.jpg); 
     width: 100vw;
-    height: 650px; 
-    /* background-repeat: no-repeat;  */
+    height: 630px; 
+    background-repeat: no-repeat;   
     background-attachment: fixed;
-    background-position: center center; 
+    background-position: center center;  */
+    display: inline-flex;
 } 
+#align9{
+    display: inline;
+    padding-left: 30px;
+}
+#align10{
+    display: flex;
+    justify-content: right;
+}
+#d_3{
+    height: 400px;
+    width: 650px;
+    padding-left: 25px;
+}
 #bnr_p{
     font-family: Montserrat;
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 18px;
     word-spacing: 2px;
     display: flex;
-    justify-content: center;
-    padding: 40px 200px; 
-    animation: banner_p 3.5s;
-} 
+    /* justify-content: center;
+    padding: 40px 200px;  */
+    text-align: left;
+    padding: 10px 30px;
+    width: 50vw;
+    animation: banner_p 3s; 
+}
 @keyframes banner_p{
     0%
     {
@@ -45,7 +62,7 @@ header
         filter: blur(0px);  
         margin-block-start: 0px;
     }
-} 
+}   
 .logo{
     cursor: pointer;
 }
@@ -65,7 +82,7 @@ header
 #cont1
 {
     font-family: Zen Tokyo Zoo ;
-    color: #000000;
+    color: #000;
     font-size: 50px;
     margin-top: 20px;
     margin-left: 0px;
@@ -93,7 +110,7 @@ header
     width: 40px;
 }
 #account:hover{
-    color: cyan;
+    color: rgb(24, 221, 221);
     cursor: pointer;
 }
 #account:hover #nav{
@@ -105,7 +122,7 @@ header
 }
 #account:hover #nav ul{
     display: block; 
-    background-color: rgb(43, 43, 43);
+    background-color: rgba(206, 195, 195, 0.5);
     border-radius: 10px;
 }
 #account:hover #nav ul li{
@@ -119,7 +136,7 @@ header
 }
 .dashboard{
     padding: 0px 5px;
-    color: white;
+    color: black;
     transition: 0.3s ease 0s;
     cursor: pointer;
     list-style: none;
@@ -130,11 +147,11 @@ header
     /* text-align: left; */
 }
 .dashboard:hover{
-    color: cyan;
+    color: rgb(24, 221, 221);
 }
 .contents ul li a{
     padding: 17px 5px;
-    color: white;
+    color: #000;
     font-family: Montserrat;
     font-size: 15px;
     font-weight: 500;
@@ -142,30 +159,29 @@ header
     display: block;
 }
 a#active,.contents ul li a:hover{
-    color: cyan;
+    color: rgb(24, 221, 221);
 }
 nav label i{
     color: rgb(0, 0, 0);
-    font-size: 20px;
+    font-size: 35px;
     margin-right: 20px;
     padding-left: 40px;
     align-items: center;
     cursor: pointer;
 }
 nav label i:hover{
-    color: cyan;
+    color: rgb(24, 221, 221);
 }
 @media (max-width: 100vw){
     .contents ul{
         position: fixed;
         right: -100%;
-        background-color: rgb(43, 43, 43);
-        color: aliceblue;
+        background-color: rgba(206, 195, 195, 0.5); 
         top: 105px;
         display: block;
         text-align: center;
         height: auto;
-        width: 160px;
+        width: 140px;
         border-radius: 15px;
         transition: all 0.4s ease;
         list-style-type: none;
@@ -191,12 +207,15 @@ input
 #cont3
 {
     font-family: Montserrat;
-    font-size: 75px;
-    color: rgb(252, 251, 251);
+    /* font-size: 75px; */
+    font-size: 47px; 
+    color: rgb(0, 0, 0);
     font-weight: 600;
     display: flex;
-    justify-content: center;
-    padding-top: 60px;
+    /* justify-content: center; */
+    text-align: left;
+    /* padding-top: 60px; */
+    padding: 60px 10px;
 }
 #a
 {
@@ -227,15 +246,15 @@ input
 {
     0%
     {
-        filter: blur(50px); 
+        filter: blur(50px);  
         margin-inline-start: 100px;
     }
     100%
     {
-        filter: blur(0px); 
+        filter: blur(0px);  
         margin-inline-start: 0px;
     }
-}
+} 
 #button ul{
     list-style: none;
     display: flex;
@@ -269,15 +288,15 @@ input
     font-family: Montserrat;
     font-size: 20px;
     font-weight: 500;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     border-radius: 15px; 
-    border: rgb(253, 118, 8) 1px solid; 
+    border: rgba(241, 200, 15, 0.8777) 1px solid; 
     padding: 20px 20px;
     height: auto;
     width: auto;
     cursor: pointer;
     transition: 0.7s;
-    background: rgb(253, 118, 8);
+    background: rgba(241, 200, 15, 0.877);
 }
 #button ul li .btn2:hover{
     color: white;
@@ -287,13 +306,13 @@ input
 @keyframes button{
     0%
     {
-        filter: blur(50px);  
+        filter: blur(25px);  
     }
     100%
     {
         filter: blur(0px);  
     }
-}
+} 
 .intro1{
     margin-top: 10%;
     font-family: Montserrat;
@@ -335,6 +354,7 @@ input
 #align2{
     display: flex;
     flex-direction: column;
+    width: 60vw;
 }
 #align3{
     display: inline-block;
@@ -373,6 +393,7 @@ input
     flex-direction: column;
     padding-top: 25px;
     justify-content: space-between;
+    width: 60vw;
 }
 #align5{
     display: flex;
@@ -388,6 +409,7 @@ input
 #align6{
     display: flex;
     flex-direction: column;
+    width: 60vw;
 }
 #align7{
     display: inline-block;
@@ -405,14 +427,14 @@ input
     margin-top: 5%;
 }
 .size{
-    height: 230px;
+    height: 270px;
     width: auto;
-    margin-left: 4%;
-    margin-top: 0%;
+    /* margin-left: 2%;
+    margin-top: 0%; */
 }
 .Booking{
     font-family: Montserrat;
-    font-size: 50px;
+    font-size: 45px;
     font-weight: 600;
     display: flex;
     justify-content: center;
@@ -433,13 +455,13 @@ input
 }
 .offer{
     font-family: Paprika;
-    font-size: 35px;
+    font-size: 40px;
     font-weight: 600;
     color: rgb(162, 215, 236);
     padding-top: 70px;
     display: flex;
     justify-content: center;
-    text-shadow: 2px 2px rgb(135, 112, 199);
+    text-shadow: 3px 3px rgb(135, 112, 199);
 }
 .main-container{
     width: 750px;
