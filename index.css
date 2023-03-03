@@ -35,8 +35,8 @@ header
 }
 #d_3{
     height: 400px;
-    width: 650px;
-    padding-left: 25px;
+    width: 630px;
+    padding-left: 0px;
 }
 #bnr_p{
     font-family: Montserrat;
@@ -47,7 +47,7 @@ header
     /* justify-content: center;
     padding: 40px 200px;  */
     text-align: left;
-    padding: 10px 30px;
+    padding: 10px 10px;
     width: 50vw;
     animation: banner_p 3s; 
 }
